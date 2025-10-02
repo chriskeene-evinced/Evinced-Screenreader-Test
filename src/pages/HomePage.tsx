@@ -26,21 +26,21 @@ export function HomePage() {
             <nav className="hidden md:flex items-center space-x-2 bg-muted p-1 rounded-lg">
               <Button
                 variant="ghost"
-                onClick={() => setActiveTab("Products")}
+                onClick={() => setActiveTab("Homepage")}
                 className={activeTab === "Products" ? "bg-background shadow-sm" : ""}
               >
                 Products
               </Button>
               <Button
                 variant="ghost"
-                onClick={() => setActiveTab("Solutions")}
+                onClick={() => setActiveTab("Never Gonna")}
                 className={activeTab === "Solutions" ? "bg-background shadow-sm" : ""}
               >
                 Solutions
               </Button>
               <Button
                 variant="ghost"
-                onClick={() => setActiveTab("Enterprise")}
+                onClick={() => setActiveTab("Give You Up")}
                 className={activeTab === "Enterprise" ? "bg-background shadow-sm" : ""}
               >
                 Enterprise
@@ -63,12 +63,12 @@ export function HomePage() {
           <div className="absolute inset-0 bg-gradient-to-br from-slate-50 to-slate-200 dark:from-slate-900 dark:to-slate-800 bg-[length:200%_200%] animate-background-pan -z-10" />
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl text-foreground">
-              Minimalist Design, Maximum Impact
+              Let's play with screenreaders!
             </h1>
             <p className="mt-6 max-w-2xl mx-auto text-lg text-muted-foreground">
-              Clarity is a single-page landing application designed with a
-              minimalist aesthetic, prioritizing clean layouts and a refined
-              user experience.
+              This page is designed to showcase how screen readers can be used to navigate through website pages, and includes a number of common mistakes that developers might make. 
+              
+              See if you can spot them all, and try to complete the input form somewhere on this page!
             </p>
             <div className="mt-10">
               <Button
